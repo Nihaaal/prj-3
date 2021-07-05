@@ -1,0 +1,17 @@
+#bg{
+background-color:hsl(204, 43%, 93%) ;
+}
+.titles{
+font-family: 'Karla', sans-serif;
+}
+
+#sec-bg{
+   background-color: hsl(179, 62%, 43%);
+}
+.btn{
+    background-color: hsl(71, 73%, 54%);
+}
+
+#third-bg{
+    background-color: hsl(218, 22%, 67%);
+}

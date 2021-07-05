@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body id="bg">
+    <section
+      class="
+        container
+        mx-auto
+        grid
+        gap-0
+        grid-cols-1
+        lg:grid-cols-2
+        grid-rows-3
+        lg:grid-rows-2
+        w-4/6
+        h-auto
+        bg-white
+        gap-4
+        justify-center
+        content-center
+        mt-16
+        rounded-md
+        mb-16
+      "
+    >
+      <div class="mt-4 p-4 titles lg:col-span-2 lg:mb-0">
+        <div class="text-2xl text-purple-400 px-2 mb-5 font-bold">
+          Join our community
+        </div>
+
+        <div class="text-lg text-yellow-500 font-semibold px-2 mb-5">
+          30-day, hassle-free money back guarantee
+        </div>
+
+        <div class="text-sm text-blue-300 font-semibold px-2 lg:text-lg">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </div>
+      </div>
+
+      <div
+        class="
+          mt-4
+          p-4
+          titles
+          text-white
+          md:-mt-6
+          lg:col-span-1 lg:rounded-bl-md lg:-mt-4
+        "
+        id="sec-bg"
+      >
+        <div class="text-xl font-bold pr-2 mb-3">Monthly Subscription</div>
+        <div class="font-thin mb-3">
+          <div class="inline-block text-3xl font-bold pr-2">&dollar;29</div>
+          per month
+        </div>
+        <div class="text-sm font-normal mb-10">
+          Full access for less than &dollar;1 a day
+        </div>
+        <div class="text-center">
+          <button
+            class="
+              btn
+              text-white
+              font-bold
+              rounded-md
+              shadow-lg
+              w-5/6
+              h-11
+              mx-auto
+            "
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="
+          -mt-4
+          mb-4
+          p-4
+          titles
+          text-white
+          lg:col-span-1 lg:-mt-4 lg:mb-0 lg:-ml-4 lg:rounded-br-md
+          md:-mt-5
+        "
+        id="third-bg"
+      >
+        <div class="text-xl font-bold pr-2 mb-4">Why Us</div>
+        <ul>
+          <li>Tutorials by industry experts</li>
+          <li>Peer &amp; expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to our GitHub repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <!--<p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>-->
+    </footer>
+  </body>
+</html>
